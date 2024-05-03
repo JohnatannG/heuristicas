@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Heurísticas</title>
     <link rel="stylesheet" href="style.css">
+    <script src="menu-mbl.js"></script>
+    <title>Heurísticas</title>
 </head>
 <body>
     <div class="container">
 
+         <div onclick="ScrollTop" class="ScrollCima">
+            <a href="#">^</a>
+        </div>
+
         <header>
             <h1>HRIS</h1>
-            <nav class="menu">
-                <ul>
+            <nav id="nav">
+                <button id="btn-mobile">Menu</button>
+                <ul class="menu">
                     <li><a href="#historia">HISTÓRIA</a></li>
                     <li><a href="#sobre">OQUE É?</a></li>
                     <li><a href="#10hris">TIPOS DE HEURÍSTICAS</a></li>
@@ -20,9 +26,6 @@
             </nav>
         </header>
 
-        <div onclick="ScrollTop" class="ScrollCima">
-            <a href="#">^</a>
-        </div>
 
         <section class="principal" id="home">
             <h1><strong>HEURÍSTICAS</strong> NA</h1>
