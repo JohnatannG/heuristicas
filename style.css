@@ -286,6 +286,12 @@ footer p{
     gap: 2em;
 }
 
-@media screen and (max-width: 1109px){
+@media screen and (max-width: 830px){
+    .principal h1 {
+        font-size: 4em;
+    }
 
+    strong{
+        font-size: 1em;
+    }
 }
