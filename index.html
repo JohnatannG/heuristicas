@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heurísticas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+
+        <header>
+            <h1>HRIS</h1>
+            <nav class="menu">
+                <ul>
+                    <li><a href="#historia">HISTÓRIA</a></li>
+                    <li><a href="#sobre">OQUE É?</a></li>
+                    <li><a href="#10hris">TIPOS DE HEURÍSTICAS</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div onclick="ScrollTop" class="ScrollCima">
+            <a href="#">^</a>
+        </div>
+
+        <section class="principal" id="home">
+            <h1><strong>HEURÍSTICAS</strong> NA</h1>
+            <h1 class="p-principal">PROGRAMAÇÃO</h1>
+            <img src="icons/seta-baixo.png" class="setabaixo" alt="seta-baixo" width="40px">
+        </section>
+
+        <section class="history" id="historia">
+            <div class="left-history">
+                <h2>HISTÓRIA</h2>
+                <p>
+                    A história das heurísticas na computação é fascinante e remonta aos primórdios da ciência da computação. Heurística, em termos simples, refere-se a técnicas ou métodos que podem não garantir uma solução ótima,
+                    mas que geralmente produzem resultados aceitáveis ​​em um tempo razoável. <br> <br> <br> Aqui está uma visão geral da história das heurísticas na computação: <br> <br>
+
+                    <b>Início da Computação:</b> Desde os primeiros dias da computação, os programadores enfrentaram o desafio de resolver problemas complexos de forma eficiente. Muitas vezes, devido à limitação de recursos computacionais, era impraticável encontrar soluções ótimas para todos os problemas. <br> <br>
+                    
+                    <b>Heurísticas em Algoritmos de Busca:</b> As heurísticas foram inicialmente desenvolvidas para algoritmos de busca. Por exemplo, o algoritmo de busca heurística A* desenvolvido por Peter Hart, Nils Nilsson e Bertram Raphael na década de 1960 é amplamente utilizado em aplicações de inteligência artificial e jogos para encontrar caminhos eficientes em grafos. <br> <br>
+                    
+                    <b>Metaheurísticas:</b> Ao longo do tempo, surgiram técnicas mais avançadas, conhecidas como metaheurísticas, que são algoritmos de busca de alto nível projetados para explorar espaços de solução complexos de forma eficiente. Exemplos incluem algoritmos genéticos, algoritmos de otimização por enxame de partículas, otimização por colônia de formigas, entre outros. <br> <br>
+                    
+                    <b>Aplicações em Otimização:</b> As heurísticas e metaheurísticas encontraram aplicações em uma ampla gama de problemas de otimização em diversas áreas, como logística, engenharia, finanças, bioinformática e muito mais. Elas são usadas quando os métodos exatos são computacionalmente proibitivos ou quando não se sabe uma solução ótima. <br> <br>
+                    
+                    <b>Desafios e Avanços Contínuos:</b> Embora as heurísticas sejam poderosas, elas também apresentam desafios. Por exemplo, a qualidade da solução pode ser difícil de avaliar, e os algoritmos podem ficar presos em mínimos locais em vez de alcançar a solução globalmente ótima. No entanto, a pesquisa contínua tem levado a melhorias nessas áreas, tornando as heurísticas ainda mais eficazes e aplicáveis.
+                    </p>
+            </div>
+        </section>
+
+        <section class="about" id="sobre">
+            <h2>O QUE É?</h2>
+            <p>
+                Heurísticas são abordagens ou métodos de solução de problemas que buscam encontrar uma solução aceitável, satisfatória ou boa o suficiente, mesmo que não garantam a solução ótima. O termo "heurística" vem do grego "heuriskein", que significa "descobrir" ou "encontrar".
+                <br> <br>
+                Em essência, as heurísticas são estratégias práticas, muitas vezes baseadas na experiência, intuição ou regras simplificadas, que são aplicadas quando não é viável ou prático encontrar a solução ótima de um problema.
+                <br> <br> <br>
+                As heurísticas são frequentemente utilizadas em situações em que:
+                <br> <br>
+                <b>Complexidade Computacional:</b> O problema é tão complexo que encontrar a solução ótima é computacionalmente inviável em um tempo razoável.
+                <br> <br>
+                <b>Informação Limitada:</b> A informação disponível sobre o problema é incompleta, imprecisa ou incerta.
+                <br> <br>
+                <b>Restrições de Recursos:</b> Há limitações de recursos, como tempo, memória ou poder computacional, que impedem a aplicação de métodos exatos.
+                <br> <br>
+                <b>Decisões Rápidas:</b> Situações em que é necessário tomar decisões rápidas e não há tempo para uma análise exaustiva de todas as opções.
+                <br> <br>
+                <b>Soluções Pragmáticas:</b> O objetivo é encontrar uma solução satisfatória o mais rápido possível, mesmo que não seja a melhor possível.
+                <br> <br> <br>
+                Exemplos comuns de heurísticas incluem algoritmos de busca heurística, como o A* para encontrar caminhos em grafos, ou regras práticas em tomada de decisões, como "sempre escolha a opção com maior probabilidade de sucesso".
+                <br>
+                Embora as heurísticas possam não garantir a melhor solução possível, elas são valiosas ferramentas na resolução de problemas do mundo real, permitindo encontrar soluções aceitáveis em situações onde a busca pela solução ótima pode ser impraticável ou impossível.
+            </p>
+        </section>
+
+        <section class="heuristicas-10" id="10hris">
+            <h2>as 10 Heurísticas de Nielsen</h2>
+            <div class="flex-hris">
+                <div class="left-hris">
+                    <p>
+                        As "10 Heurísticas de Nielsen" são uma lista de princípios de design de interface de usuário desenvolvidos por Jakob Nielsen, um renomado pesquisador em usabilidade e experiência do usuário. Essas heurísticas foram inicialmente propostas por Nielsen em 1994 e têm sido amplamente adotadas como diretrizes para avaliação e projeto de interfaces de usuário. Aqui estão as 10 heurísticas:
+                        <br> <br> <br>
+                        <b>Visibilidade do Status do Sistema:</b> O sistema deve manter os usuários informados sobre o que está acontecendo, fornecendo feedback adequado dentro de um tempo razoável.
+                        <br> <br>
+                        <b>Correspondência entre o Sistema e o Mundo Real:</b> A linguagem, conceitos e ações do sistema devem refletir o mundo real, de modo que os usuários possam entender facilmente e mapear suas expectativas para o sistema.
+                        <br> <br>
+                        <b>Controle e Liberdade do Usuário:</b> Os usuários devem ter a liberdade de navegar pelo sistema facilmente e desfazer ações indesejadas. Atalhos de teclado e opções de saída claramente marcadas são exemplos disso.
+                        <br> <br>
+                        <b>Consistência e Padrões:</b> As convenções de design e de terminologia devem ser consistentes em todo o sistema, de modo que os usuários possam prever com precisão onde encontrar informações e como realizar tarefas.
+                        <br> <br>
+                        <b>Prevenção de Erros:</b> O sistema deve ser projetado para evitar que os usuários cometam erros sempre que possível, através do uso de mensagens de erro claras, confirmações de ações importantes e design robusto.
+                    </p>
+                </div>
+                <div class="right-hris">
+                    <p>
+                        <b>Reconhecimento em Vez de Lembrança:</b> Os usuários devem ser capazes de reconhecer e encontrar facilmente informações, opções e funcionalidades relevantes, em vez de precisarem se lembrar de detalhes específicos.
+                        <br> <br>
+                        <b>Flexibilidade e Eficiência de Uso:</b> O sistema deve oferecer opções para usuários experientes ou avançados para acelerar a interação, como atalhos de teclado e métodos abreviados, sem comprometer a facilidade de uso para os usuários menos experientes.
+                        <br> <br>
+                        <b>Estética e Design Minimalista:</b> As interfaces de usuário devem ser limpas e livres de informações desnecessárias, com elementos visuais e de layout que ajudem os usuários a se concentrarem nas tarefas essenciais.
+                        <br> <br>
+                        <b>Ajuda e Documentação:</b> O sistema deve oferecer suporte adequado e acessível para ajudar os usuários a entender suas funcionalidades e a realizar tarefas, como documentação online, tutoriais integrados e sugestões de contexto.
+                        <br> <br>
+                        <b>Reconhecimento de Usuários com Diversidade:</b> O design deve atender às necessidades de uma ampla variedade de usuários, incluindo aqueles com diferentes habilidades, conhecimentos e experiências, através de uma interface adaptável e acessível.
+                        <br> <br> <br>
+                        Essas heurísticas fornecem um conjunto de princípios fundamentais para criar interfaces de usuário intuitivas, eficientes e satisfatórias, e são amplamente utilizadas na prática de design de UX e avaliação de usabilidade.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>HRIS</p>
+            <p>Site desenvolvido por Johnatan Gabriel</p>
+            <div class="rede-sociais">
+                <a href="#" target="_blank"><img src="img/insta-logo.png" alt="insta-logo" width="25x"></a>
+                <a href="https://github.com/JohnatannG" target="_blank"><img src="img/git-hub.png" alt="git-hub" width="25px"></a>
+                <a href="https://www.linkedin.com/in/johnatan-gabriel/" target="_blank"><img src="img/link-logo.png" alt="link-logo" width="25px"></a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
