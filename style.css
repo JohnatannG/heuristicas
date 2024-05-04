@@ -365,6 +365,15 @@ footer p{
         border-radius: 10px;
     }
 
+    .principal{
+        margin-top: 10em;
+    }
+
+    .principal img{
+        margin: 30em;
+    }
+
+
     .flex-hris{
         flex-direction: column;
         gap: 0em;
