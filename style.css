@@ -305,6 +305,10 @@ footer p{
 
 @media (min-width: 380px) and (max-width: 767px){
 
+    .ScrollCima{
+        right: 2%;
+    }
+
     header{
         margin: 0px 30px;
     }
@@ -351,8 +355,24 @@ footer p{
         border-radius: 10px;
     }
 
-
     .principal h1{
         font-size: 5.5em;
+    }
+
+    .flex-hris{
+        flex-direction: column;
+        gap: 0em;
+    }
+
+    .left-hris{
+        width: 100%;
+    }
+    
+    .right-hris{
+        width: 100%;
+    }
+
+    footer p{
+        font-size: 1em;
     }
 }
